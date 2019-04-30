@@ -19,7 +19,7 @@ echo "vmname: $VMNAME"
 if [ "$1" = 'From_Source' ]; then
 ## Compile from Source
 sudo apt-get update
-sudo apt-get -y install git build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev libqrencode-dev unzip pwgen
+sudo apt-get -y install git build-essential libssl1.0-dev libdb-dev libdb++-dev libboost-all-dev libqrencode-dev unzip pwgen
 cd /usr/local/src/ || exit
 sudo git clone https://github.com/okcashpro/okcash 
 cd okcash/src || exit
@@ -30,7 +30,7 @@ sudo cp okcashd /usr/bin/okcashd
 else    
 ## Download Binaries
 sudo apt-get update
-sudo apt-get -y install git build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev libqrencode-dev unzip pwgen
+sudo apt-get -y install git build-essential libssl1.0-dev libdb-dev libdb++-dev libboost-all-dev libqrencode-dev unzip pwgen
 cd /usr/local/src/ || exit
 DOWNLOADFILE=$(curl -s https://api.github.com/repos/okcashpro/okcash/releases | grep browser_download_url | grep linux64 | head -n 1 | cut -d '"' -f 4)
 DOWNLOADNAME=$(curl -s https://api.github.com/repos/okcashpro/okcash/releases | grep name | grep linux64 | head -n 1 | cut -d '"' -f 4)
