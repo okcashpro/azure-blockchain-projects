@@ -6,7 +6,7 @@ Contents
 
 - [White Paper](bletchley-whitepaper.md)- Overview of the blockchain vision and ecosystem
 - [White Paper](CryptletsDeepDive.md) - 1st thinking into Cryptlets in Depth - Deep dive musing into Cryptlets, much has changed
-- [Anatomy of a Smart Contract]("AnatomyofASmartContract.md) - Context for refactoring Smart Contracts for Semi-Trusted Consortium Blockchains
+- [Anatomy of a Smart Contract](AnatomyofASmartContract.md) - Context for refactoring Smart Contracts for Semi-Trusted Consortium Blockchains
 - [Enterprise Smart Contracts](EnterpriseSmartContracts.md) - Implementation details for creating composite contracts in a three tiered environment
 - [Token Map](token-map.md) - Guide to blockchain topics like Tokens, Contracts and Identity.
 - [Cryptlet SDK](https://github.com/Microsoft/EnterpriseSmartContracts) DEPRECIATED &  RELOCATED -  Architecture and design tour of the preview release of the Cryptlet Framework SDK for building enterprise smart contracts.  The preview release introduces cryptlet development detail about designing enterprise grade blockchain applications for the most popular blockchain platforms.
