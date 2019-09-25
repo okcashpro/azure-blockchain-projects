@@ -14,7 +14,7 @@ Here we take a step back, or zoom out if you will, to reevaluate the big picture
 
 ![Monopoly](images/old%20europe%20map.jpg)
 
-Previous papers in the Token series provide an introduction and guide for you to grasp the basic concepts involved when approaching blockchains. So we will not dip into the whole distributed consensus algorithms burrow nor will we debate varying approaches of achieving some usable level of privacy.
+The internet is riddled with introductions and guides for you to grasp the basic concepts involved when approaching blockchains. So we will not dip into the whole distributed consensus algorithms burrow nor will we debate varying approaches of achieving some usable level of privacy.
 
 But often, those who are immersed in experiments or proof of concept projects, come up for air and ask themselves, couldn’t I have just used a traditional database or application for this? Is what I am trying to do even a valid use case for blockchains?
 
